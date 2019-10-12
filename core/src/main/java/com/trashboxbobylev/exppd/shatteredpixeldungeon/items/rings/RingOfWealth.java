@@ -235,10 +235,10 @@ public class RingOfWealth extends Ring {
 
 		public void addExp(int expi){
 		    exp += expi;
-            if (exp >= 60 && level() < 21){
-                while (exp >= 60 && level() < 26) {
+            if (exp >= 30 && level() < 21){
+                while (exp >= 30 && level() < 26) {
                     upgrade();
-                    exp -= 60;
+                    exp -= 30;
                 }
                 GLog.p(Messages.get(RingOfWealth.class, "levelup"));
             }
