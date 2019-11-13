@@ -235,8 +235,8 @@ public class RingOfWealth extends Ring {
 
 		public void addExp(int expi){
 		    exp += expi;
-            if (exp >= 30 && level() < 21){
-                while (exp >= 30 && level() < 26) {
+            if (exp >= 30 && level() < 23){
+                while (exp >= 30 && level() < 23) {
                     upgrade();
                     exp -= 30;
                 }
